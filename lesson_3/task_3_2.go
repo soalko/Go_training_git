@@ -227,5 +227,7 @@ func main() {
 	// fmt.Println(Calc("1+(2+2)/4"))
 	// fmt.Println(Calc("1+((2*3)/1/8.2-(2*(3-7)))/0.5"))
 	// fmt.Println(Calc("12*(10+12+4*10-20*(2/2))/1-4"))
-	fmt.Println(Calc(""))
+	var a = ""
+	fmt.Scan(&a)
+	fmt.Println(Calc(a))
 }
