@@ -2,17 +2,7 @@ package main
 
 import (
 	"fmt"
-	"math"
 )
-
-func Fibonacci(n int) int {
-	if n < 2 {
-		return n
-
-	}
-	return Fibonacci(n-1) + Fibonacci(n-2)
-
-}
 
 func generatePascalsTriangle(n int) [][]int {
 	triangle := make([][]int, n)
@@ -42,7 +32,6 @@ func printPascalsTriangle(triangle [][]int) {
 
 func main() {
 	var n int
-	fmt.Println(math.Pi)
 	fmt.Print()
 	fmt.Scan(&n)
 
